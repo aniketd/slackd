@@ -10,7 +10,7 @@ import Network.HTTP.Client
 import Network.HTTP.Client.TLS
 import Network.HTTP.Types.Header
 
-slackHook = "https://hooks.slack.com/services/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"
+slackHook = "https://hooks.slack.com/services/<Random>"
 
 buildRequest :: String -> RequestBody -> IO Request
 buildRequest url body = do
